@@ -29,9 +29,9 @@ public class fromLastStringToFirst {
         }
 
         for (int i = 0; i < 13; i++) {
-            int index = list.size();
-            String s = list.get(index - 1);
-            list.remove(index - 1);
+            int index = list.size() - 1;
+            String s = list.get(index);
+            list.remove(index);
             list.add(0, s);
         }
 
