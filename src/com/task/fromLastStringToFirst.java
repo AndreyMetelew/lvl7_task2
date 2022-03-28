@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class fromLastStringToFirst {
     fromLastStringToFirst () throws IOException {
-        ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
 
         Reader r = new InputStreamReader(System.in);
         BufferedReader reader = new BufferedReader(r);

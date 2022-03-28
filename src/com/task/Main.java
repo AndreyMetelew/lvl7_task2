@@ -23,7 +23,7 @@ public class Main {
            2) Добавь в него 10 строчек с клавиатуры, но только добавлять не в конец списка, а в начало.
            3) Используя цикл, выведи содержимое на экран, каждое значение с новой строки. */
 
-        ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
 
         Reader r = new InputStreamReader(System.in);
         BufferedReader reader = new BufferedReader(r);
@@ -37,7 +37,7 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println("Мы вставили текст в начало массива, каждый раз, когда вы их вводили.\nВот как они сохранились:");
+        System.out.println("Мы вставляли каждую строку в начало массива, каждый раз, когда вы их вводили.\nВот как они сохранились:");
         for (int i = 0; i < list.size(); i++) {
             System.out.println("Строка №" + (i + 1) + ", её значение: \"" + list.get(i) + "\"");
         }

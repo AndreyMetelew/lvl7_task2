@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class shortestLine {
     shortestLine () throws IOException {
-        ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
 
         Reader r = new InputStreamReader(System.in);
         BufferedReader reader = new BufferedReader(r);
